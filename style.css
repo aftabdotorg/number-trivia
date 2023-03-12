@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #880e0e;
+}
+/* 
+h1 {
+  margin: auto;
+  text-align: center;
+  color: burlywood;
+} */
+
+.container {
+  background: burlywood;
+  width: 95vw;
+  font-size: 16px;
+  max-width: 31.25em;
+  padding: 3.5em 2.5em;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  border-radius: 0.4em;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.search-query {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container input,
+.container button {
+  font-size: 1.25em;
+  outline: none;
+  border: none;
+  border-radius: 0.4em;
+}
+
+.container input {
+  width: 40%;
+  border: 1px solid #880e0e;
+  padding: 0.6em;
+}
+
+.container button {
+  width: 55%;
+  background-color: #880e0e;
+  color: burlywood;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+  padding: 0.7em;
+}
+
+#random-trivia-btn {
+  width: 100%;
+  margin-top: 1em;
+}
+
+.fact {
+  background: whitesmoke;
+  border-bottom: 0.6em solid #880e0e;
+  border-radius: 0.4em;
+  margin: 3em auto 0 auto;
+  padding: 2.8em 1.8em;
+  display: none;
+}
+
+.fact h2 {
+  font-size: 2.8em;
+  color: #880e0e;
+}
+
+.fact p {
+  font-size: 1.15em;
+  font-weight: 400;
+  color: #880e0e;
+  line-height: 1.8em;
+  text-align: justify;
+  margin-top: 0.8em;
+}
+
+@media (max-width: 480px) {
+  .search-query {
+    display: grid;
+    justify-content: center;
+    margin: auto;
+    gap: 1rem;
+  }
+  .search-query input,
+  .search-query button {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+p.msg {
+    text-align: center;
+    font-weight: 500;
+    color: #880e0e ;
+}
