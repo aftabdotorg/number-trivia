@@ -1,7 +1,8 @@
 let getTriviabtn = document.getElementById('get-trivia-btn');
 let randomTriviabtn = document.getElementById('random-trivia-btn');
 let fact = document.querySelector('.fact');
-const BASE_URL = `http://numbersapi.com/`;
+const BASE_URL = 'http://numbersapi.com/';
+
 
 let fetchTrivia = (num) => {
   fetch(`${BASE_URL}${num}`)
