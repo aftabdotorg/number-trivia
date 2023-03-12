@@ -10,12 +10,12 @@
 body {
   background: #880e0e;
 }
-/* 
+
 h1 {
-  margin: auto;
   text-align: center;
-  color: burlywood;
-} */
+  padding-bottom: 2rem;
+  color: #880e0e;
+}
 
 .container {
   background: burlywood;
